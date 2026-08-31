@@ -279,7 +279,9 @@ namespace AFMSSediDll
             List<_FBTableBase> tables = new List<_FBTableBase>();
 
             tables.Add(new FbtRHYDROMETER1());
+            tables.Add(new FbtRHYDROMETER1CELL());
             tables.Add(new FbtRHYDROMETER2());
+            tables.Add(new FbtRHYDROMETER2CELL());
             tables.Add(new FbtRSAND());
             tables.Add(new FbtRSANDDETAIL());
             tables.Add(new FbtRSANDPROFILE());
