@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public sealed class FbtRSETUP : _FBTableBase
     {

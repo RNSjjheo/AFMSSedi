@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public abstract class _AFMSButtonBase : Button, IAFMSRoundedControl
     {

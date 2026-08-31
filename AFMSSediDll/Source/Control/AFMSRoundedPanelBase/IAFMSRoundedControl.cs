@@ -1,6 +1,6 @@
 using System.Drawing;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public interface IAFMSRoundedControl
     {

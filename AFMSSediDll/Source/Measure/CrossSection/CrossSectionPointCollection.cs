@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public class CrossSectionPointCollection : List<CrossSectionPoint>
     {

@@ -1,4 +1,4 @@
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public sealed class QVelocityDistribution : _QBase
     {

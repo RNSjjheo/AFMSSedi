@@ -1,4 +1,4 @@
-namespace AFMSDll
+namespace AFMSSediDll
 {
     /// <summary>
     /// 유량 산정 객체가 사용하는 장비, 산정법, 단면 및 측선 설정입니다.

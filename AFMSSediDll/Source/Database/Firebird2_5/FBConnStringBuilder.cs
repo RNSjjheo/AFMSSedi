@@ -1,11 +1,11 @@
-﻿using FirebirdSql.Data.FirebirdClient;
+using FirebirdSql.Data.FirebirdClient;
 using RnsLibrary;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Text;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public class FBConnectionString
     {

@@ -1,4 +1,4 @@
-namespace AFMSDll
+namespace AFMSSediDll
 {
     /// <summary>DB에 의존하지 않는 유량 설정·수집·결과 상태입니다.</summary>
     public abstract class _QBase

@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Security.Principal;
 using System.ServiceProcess;
 using System.Text;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public static class WindowsServiceManager
     {

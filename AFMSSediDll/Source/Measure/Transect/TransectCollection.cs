@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public class TransectCollection : List<Transect>
     {

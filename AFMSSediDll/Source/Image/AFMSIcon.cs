@@ -1,7 +1,7 @@
 using System.Drawing;
 using System.Runtime.InteropServices;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public enum AFMSIcons
     {

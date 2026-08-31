@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net.Sockets;
 using System.Text;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public class ClientSession
     {

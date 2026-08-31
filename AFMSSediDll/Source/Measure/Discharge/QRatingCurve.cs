@@ -1,4 +1,4 @@
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public sealed class QRatingCurve : _QBase
     {

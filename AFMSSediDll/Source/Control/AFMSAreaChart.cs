@@ -6,7 +6,7 @@ using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public sealed class AFMSChartTransectMarker
     {

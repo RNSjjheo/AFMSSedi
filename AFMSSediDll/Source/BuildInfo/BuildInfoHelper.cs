@@ -2,14 +2,14 @@
 using System.Diagnostics;
 using System.Reflection;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public static class BuildInfoHelper
     {
         public static Assembly ProcessAssembly => Assembly.GetEntryAssembly()
             ?? throw new InvalidOperationException("실행 프로세스의 어셈블리 정보를 확인할 수 없습니다.");
 
-        public static Assembly AFMSDllAssembly => typeof(BuildInfoHelper).Assembly;
+        public static Assembly AFMSSediDllAssembly => typeof(BuildInfoHelper).Assembly;
 
         public static DateTime ProcessStartedAt
         {

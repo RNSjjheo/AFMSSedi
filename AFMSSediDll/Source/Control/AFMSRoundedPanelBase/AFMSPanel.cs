@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     [ToolboxItem(true)]
     [DefaultProperty(nameof(BackColor))]

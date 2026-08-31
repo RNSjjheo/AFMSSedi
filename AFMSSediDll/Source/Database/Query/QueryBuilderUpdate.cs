@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public class QueryBuilderUpdate : QueryBuilderBase
     {

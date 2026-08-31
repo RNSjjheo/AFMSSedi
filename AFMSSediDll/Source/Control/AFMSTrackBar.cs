@@ -2,7 +2,7 @@ using System.Collections;
 using System.ComponentModel;
 using System.Drawing.Drawing2D;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public enum AFMSTrackBarSortOrder
     {

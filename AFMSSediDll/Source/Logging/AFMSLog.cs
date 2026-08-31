@@ -7,7 +7,7 @@ using log4net.Layout;
 using log4net.Layout.Pattern;
 using log4net.Repository;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     /// <summary>
     /// AFMS 프로그램에서 사용하는 log4net 구성을 직접 생성합니다.

@@ -1,10 +1,10 @@
-﻿using FirebirdSql.Data.FirebirdClient;
+using FirebirdSql.Data.FirebirdClient;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Text;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public class FBDatabase : IDisposable
     {

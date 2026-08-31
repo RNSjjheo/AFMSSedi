@@ -1,4 +1,4 @@
-﻿using Svg;
+using Svg;
 using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -7,7 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Xml.Linq;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public static class AFMSSvgHelper
     {

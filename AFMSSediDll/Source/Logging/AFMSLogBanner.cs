@@ -1,6 +1,6 @@
 using log4net;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public static class AFMSLogBanner
     {
@@ -13,7 +13,7 @@ namespace AFMSDll
                 ? programName.ToUpperInvariant()
                 : displayName!;
             var processAssembly = BuildInfoHelper.ProcessAssembly;
-            var afmsDllAssembly = BuildInfoHelper.AFMSDllAssembly;
+            var afmsDllAssembly = BuildInfoHelper.AFMSSediDllAssembly;
             string runMode = Environment.UserInteractive ? "Console" : "Windows Service";
 
             string banner = $"""

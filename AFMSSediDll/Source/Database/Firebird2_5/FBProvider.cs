@@ -1,10 +1,10 @@
-﻿using FirebirdSql.Data.FirebirdClient;
+using FirebirdSql.Data.FirebirdClient;
 using RnsLibrary;
 using System;
 using System.Collections.Generic;
 using System.Data;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public sealed class FBProvider
     {
@@ -282,6 +282,7 @@ namespace AFMSDll
             tables.Add(new FbtRHYDROMETER2());
             tables.Add(new FbtRSAND());
             tables.Add(new FbtRSANDDETAIL());
+            tables.Add(new FbtRSANDPROFILE());
             tables.Add(new FbtRSETUP());
 
             return tables;

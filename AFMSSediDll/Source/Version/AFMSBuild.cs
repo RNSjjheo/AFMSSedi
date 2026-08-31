@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public class AFMSBuild
     {

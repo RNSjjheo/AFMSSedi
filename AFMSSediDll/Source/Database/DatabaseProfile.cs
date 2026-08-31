@@ -1,6 +1,6 @@
-﻿using FirebirdSql.Data.FirebirdClient;
+using FirebirdSql.Data.FirebirdClient;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     /// <summary>
     /// 하나의 Firebird DB 접속 정보를 나타냅니다.

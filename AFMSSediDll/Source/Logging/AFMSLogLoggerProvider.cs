@@ -1,7 +1,7 @@
 using log4net;
 using Microsoft.Extensions.Logging;
 
-namespace AFMSDll
+namespace AFMSSediDll
 {
     /// <summary>
     /// Microsoft ILogger 로그를 AFMSLog가 구성한 log4net 로그에도 전달합니다.

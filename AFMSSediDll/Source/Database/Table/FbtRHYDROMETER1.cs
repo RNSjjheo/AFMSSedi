@@ -1,4 +1,4 @@
-namespace AFMSDll
+namespace AFMSSediDll
 {
     public sealed class FbtRHYDROMETER1 : FbtRHYDROMETER
     {
