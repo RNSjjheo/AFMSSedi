@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AFMSSSCService/AFMSSSCService.csproj" />
+  <Project Path="AFMSSediDll/AFMSSediDll.csproj" />
+</Solution>
