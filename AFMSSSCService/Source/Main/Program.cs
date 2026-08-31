@@ -24,6 +24,8 @@ namespace AFMSSSCService
             InitializeProfile();
 
             var builder = Host.CreateApplicationBuilder(args);
+            builder.Services.Configure<SSCServiceOptions>(
+                builder.Configuration.GetSection(SSCServiceOptions.SectionName));
             builder.Services.AddHostedService<WorkerSSC>();
 
             var host = builder.Build();
