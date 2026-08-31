@@ -205,21 +205,13 @@ namespace AFMSDll
                 if(log != "") result.Add(log);
             }
 
-            Sync();
-
             return result;
-        }
-
-        public void Sync()
-        {
-            FBHydorManger.SyncAdd();
-            FBHydorManger.SyncRemove();
         }
 
         public bool IsExistExtraEmptyData()
         {
-            string sql = $"SELECT COUNT(*) FROM {FbtSETUP.TABLE_NAME}";
-            sql += $" WHERE {FbtSETUP.COL_PK1} = 100";
+            string sql = $"SELECT COUNT(*) FROM {FbtRSETUP.TABLE_NAME}";
+            sql += $" WHERE {FbtRSETUP.COL_PK1} = 100";
 
             using FBDatabase db = CreateDatabase();
             db.RunQuery(sql);
@@ -286,20 +278,11 @@ namespace AFMSDll
         {
             List<_FBTableBase> tables = new List<_FBTableBase>();
 
-            tables.Add(new FbtHYDROMETERVIDEO());
-            tables.Add(new FbtHYDROMETERVIDEOCELL());
-            tables.Add(new FbtHYDROMETERMPDS());
-            tables.Add(new FbtHYDROMETERMPDSCELL());
-            tables.Add(new FbtWATERLEVEL());
-            tables.Add(new FbtVTHLOGGER());
-            tables.Add(new FbtSETUP());
-            tables.Add(new FbtAFMSCrossSection());
-            tables.Add(new FbtAFMSHydroMeter());
-            tables.Add(new FbtAFMSDischargeMethodConfig());
-            tables.Add(new FbtAFMSDischargeTimeslot());
-            tables.Add(new FbtAFMSDischargeResult());
-            tables.Add(new FbtAFMSReplicatorSetting());
-            tables.Add(new FbtAFMSHydroTransect());
+            tables.Add(new FbtRHYDROMETER1());
+            tables.Add(new FbtRHYDROMETER2());
+            tables.Add(new FbtRSAND());
+            tables.Add(new FbtRSANDDETAIL());
+            tables.Add(new FbtRSETUP());
 
             return tables;
         }
