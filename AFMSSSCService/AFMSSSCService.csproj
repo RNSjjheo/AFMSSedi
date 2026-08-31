@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Worker">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFramework>net10.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-AFMSSSCService-a9660152-0604-4561-bc5e-92a69b0eeb6c</UserSecretsId>
@@ -12,6 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Source\" />
+    <ProjectReference Include="..\AFMSSediDll\AFMSSediDll.csproj" />
   </ItemGroup>
 </Project>
